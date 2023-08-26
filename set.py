@@ -25,8 +25,19 @@ print('set metods')
 # .isupperset()
 #. union()
 
-setA = {1,3,5,7,9,0}
-setB = {2,4,6,8,0}
-print(setA.difference(setB))
+setA = {1,3,5,7,9,0,100}
+setB = {2,4,6,8,0,1}
+setA.difference(setB)
+"""
+print(setA)
 print(setA.difference_update(setB))
 print(setA.intersection(setB))
+setA.discard(100)
+print(setA)
+
+"""
+
+
+
+
+
