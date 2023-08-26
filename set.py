@@ -12,3 +12,21 @@ print(67 in no_duplicated_set)
 
 # asfasdfasdfasdfasdf
 print('test commit')
+
+print('**********************************************************************')
+print('set metods')
+#set methods
+# .difference()
+# .difference_update()
+# .intersection()
+# .intersection_update()
+# .discard
+# .issubset()
+# .isupperset()
+#. union()
+
+setA = {1,3,5,7,9,0}
+setB = {2,4,6,8,0}
+print(setA.difference(setB))
+print(setA.difference_update(setB))
+print(setA.intersection(setB))
