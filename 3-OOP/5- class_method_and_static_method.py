@@ -10,9 +10,3 @@ class PlayerCharacter:
     def shout(self): 
         print(f'my name is {self.name}') 
       
-    @classmethod
-    def sum_numbers(num1,num2):
-        return num1+num2
-
-player1= PlayerCharacter('karim',22)
-player1.sum_numbers(2)
