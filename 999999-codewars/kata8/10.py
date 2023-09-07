@@ -9,3 +9,6 @@ print(reverse_seq(5))
 #best
 def reverseseq2(n):
     return list(range(n, 0, -1))
+
+def reverseseq(n):
+    return [x for x in range(n,0,-1)]
