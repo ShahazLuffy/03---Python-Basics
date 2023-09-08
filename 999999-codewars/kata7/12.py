@@ -7,3 +7,5 @@ df = pd.read_excel("C:/Users/Fava/Desktop/i.xlsx")
 column_list = df["karim"].tolist()
 
 print(column_list)
+
+# soton ye eksel ro miare to ye list

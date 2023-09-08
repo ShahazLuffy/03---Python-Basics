@@ -13,3 +13,7 @@ os.rename(os.path.join(directory, filename), os.path.join(directory, '1.jpg'))
 # Create copies of the file renamed to 2.jpg, 3.jpg, and 4.jpg
 for i in [33,55]:
     shutil.copy(os.path.join(directory, '1.jpg'), os.path.join(directory, f'{i+2}.jpg'))
+    
+    
+# miad file ke dakhel masir directory hast rename mikone
+# ba'd harchi to iterator bashe be esme hamona misaze
