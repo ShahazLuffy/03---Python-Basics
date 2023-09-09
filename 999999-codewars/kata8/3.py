@@ -9,4 +9,4 @@ n=-5, m=5:  0
 """
 
 def paperwork(n, m):
-   return   0 if n <0 or m<0  else n*m
+   return 0 if n <0 or m<0  else n*m
