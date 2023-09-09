@@ -35,4 +35,25 @@ value2 = 5
 operator1='+'
 print(eval("{}{}{}".format(value1, operator1, value2)))
 print(eval('2+2'))
-pr
+print()
+
+def digitize(n):
+    k = str(n)
+    ka=[]
+    for item in k:
+        ka.append(int(item))
+    reversed_list = ka[::-1]
+    
+    return reversed_list
+     
+[8, 3, 7, 4, 6, 7, 4, 8, 9]
+print(digitize(984764738))
+
+def a1(number):
+    return [int(digit) for digit in str(number)][::-1]
+print(a1(1230))
+
+
+def kasdf(number):
+    return str(number)
+print(kasdf(33434))
