@@ -4,7 +4,7 @@ import os
 os.makedirs('D:/Ali Ghaderipour/workplace/Python/03 - Python Basics/999999-codewars/kata5')
 
 # Create files inside the directory
-for i in [1,3,5]:
+for i in [1936,1131,20018]:
     open(f'D:/Ali Ghaderipour/workplace/Python/03 - Python Basics/999999-codewars/kata5/{str(i)}.py', 'w').close()
     
 
