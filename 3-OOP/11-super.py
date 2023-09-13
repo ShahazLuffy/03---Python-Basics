@@ -31,4 +31,4 @@ archer1 = Archer('Karim', 100, 'karim@gmail.com')
 print(wizard1.email)
 print(archer1.email) 
 
-# super().__init__(email)  ==  User.__init__(self, email)
+# super().__init__(email)  ==  User.__init__(self, email)   
