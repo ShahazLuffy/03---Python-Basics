@@ -10,8 +10,19 @@ def performance(fn):
 
 @performance
 def long_time():
-    for i in range(100000000):
+    print('long_time1')
+    for i in range(1000000000): # range is a generator
+        i*5
+
+@performance
+def long_time2():
+    print('long_time2')
+    for i in list(range(1000000000)): # list is not a generator
         i*5
 
 
 long_time()
+
+long_time2()
+
+# generators are so much faster than lists
